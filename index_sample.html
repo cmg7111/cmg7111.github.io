@@ -8,74 +8,54 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-    <!--구글 웹 폰트-->
-    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
 
-    <title>Cho SJ</title>
+    <title>Narrow Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <style>
-      body{
-        font-family: K2D;
-      }
-      hr {
-        height:0; border-top:1px solid #F2F2F2;
-      }
-      .container{
-        margin:auto;
-        width: 1210px;
-      }
       p{
         padding-left: 30px;
       }
-
-      .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
-
-      ul{
-        padding-top:10px;
-      }
-      ul li { 
-        display:inline; 
-        font:bold 12px Dotum;  
-        padding:0 10px; 
-        font-family: K2D;
-      }
-
-      .box_top{
-        width:820px;
-        background-color:#F2F2F2;
-        border-radius: 10px;
-        padding-left:40px;
-        vertical-align: middle;
-        display:table-cell;
-      }
-
-      .footer{
-        font-size:10px;
-      }
-
     </style>
-
   </head>
 
   <body>
 
-    <div class="container" style="width:850px">
-          <ul style="float:right">
+    <div class="container" style="width:45%">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="index.html">Home</a></li>
             <li role="presentation"><a href="about.html">About</a></li>
             <li role="presentation"><a href="#">Project</a></li>
             <li role="presentation"><a href="#">Interest</a></li>
           </ul>
-        <h3 style="float:left"><font color="gray">Cho Seung-Jin</font></h3>
-<br><br><br><hr></hr><br>
-      <div class="box_top" style="height:150px">
-          <h1><font size="30">Resume</font></h1>
-          <!--<p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
-      </div><br>
+        </nav>
+        <h2 class="text-muted">Cho Seung-Jin</h2>
+        <hr></hr>
+      </div>
+
+      <div class="jumbotron" style="height:150px">
+        <div style="margin-top:-45px">
+        <h1>About</h1>
+        <p class="lead">신상정보</p>
+        <!--<p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
+        </div>
+      </div>
 
       <div class="container">
         <div style="width:70%">
